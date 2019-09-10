@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="VERSION" value="16" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="course">
+        <HyperskillCourse>
+          <option name="authors">
+            <list />
+          </option>
+          <option name="courseMode" value="Study" />
+          <option name="customPresentableName" />
+          <option name="description" value="When learning a new programming language, we always have to figure out how to print text data. It is a simple and useful skill: you can print texts everywhere, even in the console. &#13;&#10;&#13;&#10;There is only one problem: the text itself isn’t pretty enough for your taste. What if we try to add a little “make-up”? Or get very creative with fonts, draw awesome letters with other letters? &#13;&#10;&#13;&#10;Let’s try this out.&lt;br/&gt;&lt;br/&gt;Learn more at &lt;a href=&quot;https://hyperskill.org&quot;&gt;https://hyperskill.org/projects/71&lt;/a&gt;" />
+          <option name="environment" value="" />
+          <option name="id" value="0" />
+          <option name="index" value="-1" />
+          <option name="language" value="kotlin" />
+          <option name="languageCode" value="en" />
+          <option name="name" value="ASCII Text Signature" />
+          <option name="stages">
+            <list>
+              <HyperskillStage>
+                <option name="id" value="390" />
+                <option name="stepId" value="6173" />
+                <option name="title" value="Primitive Art" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="391" />
+                <option name="stepId" value="6174" />
+                <option name="title" value="Star quality" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="392" />
+                <option name="stepId" value="6175" />
+                <option name="title" value="Make it notable" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="393" />
+                <option name="stepId" value="6176" />
+                <option name="title" value="ASCII New Roman" />
+              </HyperskillStage>
+            </list>
+          </option>
+          <option name="taskToTopics">
+            <map>
+              <entry key="0">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="211" />
+                      <option name="theoryId" value="4350" />
+                      <option name="title" value="Introduction to Kotlin" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="210" />
+                      <option name="theoryId" value="4351" />
+                      <option name="title" value="Basic literals" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="212" />
+                      <option name="theoryId" value="4362" />
+                      <option name="title" value="The first program" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="219" />
+                      <option name="theoryId" value="4425" />
+                      <option name="title" value="Standard output" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="259" />
+                      <option name="theoryId" value="3805" />
+                      <option name="title" value="IDE" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="260" />
+                      <option name="theoryId" value="3801" />
+                      <option name="title" value="IntelliJ IDEA" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="1">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="502" />
+                      <option name="theoryId" value="6865" />
+                      <option name="title" value="Units of information" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="213" />
+                      <option name="theoryId" value="4371" />
+                      <option name="title" value="Values and variables" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="214" />
+                      <option name="theoryId" value="4388" />
+                      <option name="title" value="Data types" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="221" />
+                      <option name="theoryId" value="4472" />
+                      <option name="title" value="Arithmetic operations" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="224" />
+                      <option name="theoryId" value="4515" />
+                      <option name="title" value="Boolean and logical operations" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="226" />
+                      <option name="theoryId" value="4540" />
+                      <option name="title" value="Strings" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="230" />
+                      <option name="theoryId" value="4575" />
+                      <option name="title" value="Invoking functions" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="218" />
+                      <option name="theoryId" value="4445" />
+                      <option name="title" value="Standard input" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="227" />
+                      <option name="theoryId" value="4547" />
+                      <option name="title" value="String templates" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="222" />
+                      <option name="theoryId" value="4488" />
+                      <option name="title" value="Integers in action" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="225" />
+                      <option name="theoryId" value="4525" />
+                      <option name="title" value="Relational operators" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="250" />
+                      <option name="theoryId" value="4680" />
+                      <option name="title" value="Characters" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="232" />
+                      <option name="theoryId" value="4625" />
+                      <option name="title" value="If expression" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="239" />
+                      <option name="theoryId" value="4643" />
+                      <option name="title" value="Repeating blocks" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="362" />
+                      <option name="theoryId" value="5544" />
+                      <option name="title" value="Binary numbers" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="220" />
+                      <option name="theoryId" value="4455" />
+                      <option name="title" value="The classification of basic types" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="229" />
+                      <option name="theoryId" value="4564" />
+                      <option name="title" value="Arrays" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="2">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="234" />
+                      <option name="theoryId" value="4633" />
+                      <option name="title" value="Ranges" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="233" />
+                      <option name="theoryId" value="4631" />
+                      <option name="title" value="When expression" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="238" />
+                      <option name="theoryId" value="4652" />
+                      <option name="title" value="For loop and ranges" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="240" />
+                      <option name="theoryId" value="4659" />
+                      <option name="title" value="While loops" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="433" />
+                      <option name="theoryId" value="6165" />
+                      <option name="title" value="Jumps and returns" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="237" />
+                      <option name="theoryId" value="4657" />
+                      <option name="title" value="For loop and arrays" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="3">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="216" />
+                      <option name="theoryId" value="4419" />
+                      <option name="title" value="Coding style conventions" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="215" />
+                      <option name="theoryId" value="4389" />
+                      <option name="title" value="Naming variables" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="231" />
+                      <option name="theoryId" value="4580" />
+                      <option name="title" value="Declaring functions" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </option>
+          <option name="updateDate" value="0" />
+          <option name="hyperskillProject">
+            <HyperskillProject>
+              <option name="description" value="When learning a new programming language, we always have to figure out how to print text data. It is a simple and useful skill: you can print texts everywhere, even in the console. &#13;&#10;&#13;&#10;There is only one problem: the text itself isn’t pretty enough for your taste. What if we try to add a little “make-up”? Or get very creative with fonts, draw awesome letters with other letters? &#13;&#10;&#13;&#10;Let’s try this out." />
+              <option name="id" value="71" />
+              <option name="ideFiles" value="https://stepik.org/media/attachments/lesson/226140/additional_files.json" />
+              <option name="language" value="kotlin" />
+              <option name="templateBased" value="false" />
+              <option name="title" value="ASCII Text Signature" />
+              <option name="useIde" value="true" />
+            </HyperskillProject>
+          </option>
+          <option name="items">
+            <list>
+              <FrameworkLesson>
+                <option name="currentTaskIndex" value="2" />
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="ASCII Text Signature" />
+                <option name="updateDate" value="0" />
+                <option name="unitId" value="0" />
+                <option name="items">
+                  <list>
+                    <EduTask>
+                      <option name="customPresentableName" value="stage1" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;An ASCII generator is an awesome thing. It can output to the real world any document, picture, or text file, all in two-dimensions containing only text symbols. It is often used to print signatures for various conferences and meetings. A signature can be like a name badge is a small piece of paper with your name printed on it which lets everyone know what your name is. In this project, you will write an ASCII generator that can print name signatures.&lt;/p&gt;&#10;&#10;&lt;p&gt;Let's start with generating the simplest signature. A signature usually consists of a name and a surname. Your task is to generate to the output signature displaying the name of someone named &quot;Hyper&quot; with a surname &quot;Skill&quot;. Also, you need the text to be bordered with straight lines across all four sides like in the example.&lt;/p&gt;&#10;&#10;&lt;p&gt;Note that left and right borders consist of the symbol &lt;code&gt;'|'&lt;/code&gt;, the top border consists of the symbol &lt;code&gt;'_'&lt;/code&gt;, and the bottom border consists of the symbol &lt;code&gt;'¯'&lt;/code&gt;.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt; _____________&#10;| Hyper Skill |&#10; ¯¯¯¯¯¯¯¯¯¯¯¯¯&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt; &lt;/p&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/71/stages/390/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="6173" />
+                      <option name="index" value="1" />
+                      <option name="name" value="Primitive Art" />
+                      <option name="record" value="1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/signature/Main.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/signature/Main.kt" />
+                                <option name="text" value="package signature&#10;&#10;fun main() {&#10;    println(&quot;Hello, World!&quot;)&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/GeneratorTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/GeneratorTest.java" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import signature.MainKt;&#10;&#10;public abstract class GeneratorTest&lt;T&gt; extends BaseStageTest&lt;T&gt; {&#10;    public GeneratorTest() throws Exception {&#10;        super(MainKt.class);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Task1Test.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Task1Test.kt" />
+                                <option name="text" value="&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;&#10;&#10;class Task1Test : GeneratorTest&lt;Unit&gt;() {&#10;&#10;    override fun generate() = listOf(&#10;            testCase(Unit, &quot;&quot;)&#10;    )&#10;&#10;    override fun check(reply: String, clue: Unit): CheckResult {&#10;        val badge = &quot; _____________\n&quot; +&#10;                &quot;| Hyper Skill |\n&quot; +&#10;                &quot; ¯¯¯¯¯¯¯¯¯¯¯¯¯&quot;&#10;&#10;        if (reply.trim('\n', ' ') != badge.trim(' ')) {&#10;            return CheckResult.FALSE(&#10;                    &quot;Your output is wrong! &quot; +&#10;                            &quot;See example #1.&quot;)&#10;        } else {&#10;            return CheckResult.TRUE&#10;        }&#10;&#10;    }&#10;}&#10;&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/TestCaseHelpers.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/TestCaseHelpers.kt" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;&#10;&#10;/** Default testCase. */&#10;fun &lt;T&gt; testCase(attach: T, input: String) = TestCase&lt;T&gt;().apply {&#10;    setInput(input)&#10;    setAttach(attach)&#10;}&#10;&#10;fun cipheredError() = CheckResult(false, &quot;Incorrect output. This is a private test.&quot;)&#10;&#10;/** Hide error description in private test. */&#10;fun CheckResult.ciphered() =&#10;        if (!isCorrect)&#10;            cipheredError()&#10;        else CheckResult(true, feedback)&#10;&#10;class InputClue(&#10;        val input: String,&#10;        val isPrivate: Boolean = false,&#10;        /** Hint will be printed even for private tests. */&#10;        val hint: String? = null&#10;) {&#10;&#10;    /** Ciphers [message] or adds a [hint] to the error if it is not null. */&#10;    fun toFailure(message: String): CheckResult {&#10;        if (isPrivate) {&#10;            return CheckResult.FALSE(&quot;Incorrect output. This is a private test. &quot; + (hint ?: &quot;&quot;))&#10;        } else {&#10;            return CheckResult.FALSE(&quot;$message ${hint ?: &quot;&quot;}&quot;)&#10;        }&#10;    }&#10;}&#10;&#10;fun inputCase(&#10;        input: String,&#10;        isPrivate: Boolean = false,&#10;        hint: String? = null&#10;) = testCase(InputClue(input, isPrivate, hint), input)&#10;&#10;&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1565263943000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" value="stage2" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;In this stage, you will write a program that reads the name and a surname from the input and generate a correctly-sized signature.&lt;/p&gt;&#10;&#10;&lt;p&gt;The signature should contain the whole name and the whole surname, just one whitespace between the name and surname, and one whitespace at the beginning and at the end of the signature, but that is all. &lt;/p&gt;&#10;&#10;&lt;p&gt;For the borders use the asterisk symbol: &lt;code&gt;'*'&lt;/code&gt;.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output examples&lt;/h2&gt;&#10;&#10;&lt;p&gt;If the user input  &lt;code&gt;Albert Einstein&lt;/code&gt;, the output should be:&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;*******************&#10;* Albert Einstein *&#10;*******************&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt;If the user input &lt;code&gt;Nikola Tesla&lt;/code&gt;, the output should be:&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;****************&#10;* Nikola Tesla *&#10;****************&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/71/stages/391/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="6174" />
+                      <option name="index" value="2" />
+                      <option name="name" value="Star quality" />
+                      <option name="record" value="2" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/GeneratorTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/GeneratorTest.java" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import signature.MainKt;&#10;&#10;public abstract class GeneratorTest&lt;T&gt; extends BaseStageTest&lt;T&gt; {&#10;    public GeneratorTest() throws Exception {&#10;        super(MainKt.class);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/TestCaseHelpers.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/TestCaseHelpers.kt" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;&#10;&#10;/** Default testCase. */&#10;fun &lt;T&gt; testCase(attach: T, input: String) = TestCase&lt;T&gt;().apply {&#10;    setInput(input)&#10;    setAttach(attach)&#10;}&#10;&#10;fun cipheredError() = CheckResult(false, &quot;Incorrect output. This is a private test.&quot;)&#10;&#10;/** Hide error description in private test. */&#10;fun CheckResult.ciphered() =&#10;        if (!isCorrect)&#10;            cipheredError()&#10;        else CheckResult(true, feedback)&#10;&#10;class InputClue(&#10;        val input: String,&#10;        val isPrivate: Boolean = false,&#10;        /** Hint will be printed even for private tests. */&#10;        val hint: String? = null&#10;) {&#10;&#10;    /** Ciphers [message] or adds a [hint] to the error if it is not null. */&#10;    fun toFailure(message: String): CheckResult {&#10;        if (isPrivate) {&#10;            return CheckResult.FALSE(&quot;Incorrect output. This is a private test. &quot; + (hint ?: &quot;&quot;))&#10;        } else {&#10;            return CheckResult.FALSE(&quot;$message ${hint ?: &quot;&quot;}&quot;)&#10;        }&#10;    }&#10;}&#10;&#10;fun inputCase(&#10;        input: String,&#10;        isPrivate: Boolean = false,&#10;        hint: String? = null&#10;) = testCase(InputClue(input, isPrivate, hint), input)&#10;&#10;&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Task2Test.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Task2Test.kt" />
+                                <option name="text" value="&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;&#10;&#10;class Task2Test : GeneratorTest&lt;InputClue&gt;() {&#10;&#10;    override fun generate() = listOf(&#10;            inputCase(&quot;Albert Einstein&quot;),&#10;            inputCase(&quot;Nikola Tesla&quot;),&#10;            inputCase(&quot;XXXX yyyyyyyyyy&quot;, true),&#10;            inputCase(&quot;Ivan Ivanov&quot;, true),&#10;            inputCase(&quot;a a&quot;, true)&#10;    )&#10;&#10;    private inline fun checkBadgeBorder(badge: String, onFailure: (msg: String) -&gt; Unit) {&#10;        val lines = badge.split(&quot;\n&quot;)&#10;&#10;        if (lines.map { it.length }.toSet().size != 1) {&#10;            onFailure(&quot;Your border is not rectangular.&quot;)&#10;            return&#10;        }&#10;        if (lines.size &lt; 2) {&#10;            onFailure(&quot;Your border is not rectangular.&quot;)&#10;            return&#10;        }&#10;        if (lines.first().any { it != '*' } || lines.last() != lines.first()) {&#10;            onFailure(&quot;Your top and bottom edges don't consist of '*'.&quot;)&#10;            return&#10;        }&#10;        if (!lines.drop(1).dropLast(1).all { it.startsWith(&quot;* &quot;) &amp;&amp; it.endsWith(&quot; *&quot;) }) {&#10;            onFailure(&quot;Your left and right edges don't consist of '*' with one space padding.&quot;)&#10;            return&#10;        }&#10;    }&#10;&#10;&#10;    override fun check(reply: String, clue: InputClue): CheckResult {&#10;        val badgeStart = reply.indexOf('*')&#10;        if (badgeStart == -1) {&#10;            return CheckResult.FALSE(&quot;Your output doesn't contain a badge, wrapped in '*' symbols.&quot;)&#10;        }&#10;&#10;        val userBadge = reply&#10;                .substring(badgeStart)&#10;                .trim('\n', ' ')&#10;&#10;        checkBadgeBorder(userBadge) { errorMessage -&gt;&#10;            return CheckResult.FALSE(errorMessage)&#10;        }&#10;&#10;&#10;        val name = clue.input.trim().split(' ').filter { it != &quot;&quot; }.joinToString(&quot; &quot;)&#10;&#10;        val badge = &quot;*&quot;.repeat(name.length + 4) + &quot;\n&quot; +&#10;                &quot;* $name *\n&quot; +&#10;                &quot;*&quot;.repeat(name.length + 4)&#10;&#10;&#10;        if (badge != userBadge) {&#10;            return clue.toFailure(&quot;Wrong output for the input line \&quot;${clue.input}\&quot;.&quot;)&#10;        } else {&#10;            return CheckResult.TRUE&#10;        }&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/signature/Main.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/signature/Main.kt" />
+                                <option name="text" value="package signature&#10;&#10;fun main() {&#10;    println(&quot;Hello, World!&quot;)&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1565263943000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" value="stage3" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Let's change the font of the text. The new font will be larger. It will consist of multiple rows and columns of standard console symbols.&lt;/p&gt;&#10;&#10;&lt;p&gt;The new font is shown below:&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;&#10;____ ___  ____ ___  ____ ____ ____ _  _ _  _ _  _ _    _  _&#10;|__| |__] |    |  \ |___ |___ | __ |__| |  | |_/  |    |\/|&#10;|  | |__] |___ |__/ |___ |    |__] |  | | _| | \_ |___ |  |&#10;_  _ ____ ___  ____ ____ ____ ___ _  _ _  _ _ _ _ _  _ _   _ ___ &#10;|\ | |  | |__] |  | |__/ [__   |  |  | |  | | | |  \/   \_/    / &#10;| \| |__| |    |_\| |  \ ___]  |  |__|  \/  |_|_| _/\_   |    /__&#10;&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt;This font consists of the symbols &lt;code&gt;'_', '|', '/', '\', ']', '['&lt;/code&gt;. Note that there are no lowercase letters, only uppercase, so you should print all symbols in uppercase.&lt;/p&gt;&#10;&#10;&lt;p&gt;Note that the width of the letters in this font is different. For example, for the letter &lt;code&gt;T&lt;/code&gt; it is 3 characters, for the letter &lt;code&gt;Y&lt;/code&gt; it is 5 characters. You can find the letter boundaries by determining spaces in the same positions in all three lines of the font.&lt;/p&gt;&#10;&#10;&lt;p&gt;Also, each signature should contain the status of the person. In can be &quot;VIP&quot;, &quot;Worker&quot;, &quot;Speaker&quot;, &quot;Administrator&quot;, &quot;Participant&quot;, or something else. These statuses should appear on the signature, below the person's name. This information is not as important as the person’s name, so it should be generated in a smaller font.&lt;/p&gt;&#10;&#10;&lt;p&gt;To be successfully readable, every symbol of this font should be separated by a column of spaces.&lt;/p&gt;&#10;&#10;&lt;p&gt;You may notice that there is no space among these symbols. As shown in the example below, you should consider space is 4-symbols wide (not including spaces between symbols and 6-symbols wide including spaces between symbols).&lt;/p&gt;&#10;&#10;&lt;p&gt;Also, from the border to the start of the name (or status, in case it is longer than the name) there should be exactly two spaces on both sides.&lt;/p&gt;&#10;&#10;&lt;p&gt;Also, it may happen that the width of the signature has an even number of symbols but status has an odd number of symbols (or vice versa). In this case, you cannot generate a status right in the middle - there always would be an offset by one - on the left or on the right. In this scenario, your program should put the status to the left so there would be 1 fewer number of spaces to the left rather than to the right of the status.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output examples&lt;/h2&gt;&#10;&#10;&lt;p&gt;The examples are shown below:&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter name and surname: Bill Gates&#10;Enter person's status: VIP&#10;***************************************************&#10;*  ___  _ _    _         ____ ____ ___ ____ ____  *&#10;*  |__] | |    |         | __ |__|  |  |___ [__   *&#10;*  |__] | |___ |___      |__] |  |  |  |___ ___]  *&#10;*                       VIP                       *&#10;***************************************************&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter name and surname: Tom Smith&#10;Enter person's status: Worker&#10;*********************************************&#10;*  ___ ____ _  _      ____ _  _ _ ___ _  _  *&#10;*   |  |  | |\/|      [__  |\/| |  |  |__|  *&#10;*   |  |__| |  |      ___] |  | |  |  |  |  *&#10;*                  Worker                   *&#10;*********************************************&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter name and surname: Mr Anonimous&#10;Enter person's status: Participant&#10;**************************************************************&#10;*  _  _ ____      ____ _  _ ____ _  _ _ _  _ ____ _  _ ____  *&#10;*  |\/| |__/      |__| |\ | |  | |\ | | |\/| |  | |  | [__   *&#10;*  |  | |  \      |  | | \| |__| | \| | |  | |__| |__| ___]  *&#10;*                        Participant                         *&#10;**************************************************************&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter name and surname: John S&#10;Enter person's status: Worker-coworker-superdupercoworker&#10;****************************************&#10;*      _ ____ _  _ _  _      ____      *&#10;*      | |  | |__| |\ |      [__       *&#10;*     _| |__| |  | | \|      ___]      *&#10;*  Worker-coworker-superdupercoworker  *&#10;****************************************&#10;&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/71/stages/392/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="6175" />
+                      <option name="index" value="3" />
+                      <option name="name" value="Make it notable" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/GeneratorTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/GeneratorTest.java" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import signature.MainKt;&#10;&#10;public abstract class GeneratorTest&lt;T&gt; extends BaseStageTest&lt;T&gt; {&#10;    public GeneratorTest() throws Exception {&#10;        super(MainKt.class);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/TestCaseHelpers.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/TestCaseHelpers.kt" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;&#10;&#10;/** Default testCase. */&#10;fun &lt;T&gt; testCase(attach: T, input: String) = TestCase&lt;T&gt;().apply {&#10;    setInput(input)&#10;    setAttach(attach)&#10;}&#10;&#10;fun cipheredError() = CheckResult(false, &quot;Incorrect output. This is a private test.&quot;)&#10;&#10;/** Hide error description in private test. */&#10;fun CheckResult.ciphered() =&#10;        if (!isCorrect)&#10;            cipheredError()&#10;        else CheckResult(true, feedback)&#10;&#10;class InputClue(&#10;        val input: String,&#10;        val isPrivate: Boolean = false,&#10;        /** Hint will be printed even for private tests. */&#10;        val hint: String? = null&#10;) {&#10;&#10;    /** Ciphers [message] or adds a [hint] to the error if it is not null. */&#10;    fun toFailure(message: String): CheckResult {&#10;        if (isPrivate) {&#10;            return CheckResult.FALSE(&quot;Incorrect output. This is a private test. &quot; + (hint ?: &quot;&quot;))&#10;        } else {&#10;            return CheckResult.FALSE(&quot;$message ${hint ?: &quot;&quot;}&quot;)&#10;        }&#10;    }&#10;}&#10;&#10;fun inputCase(&#10;        input: String,&#10;        isPrivate: Boolean = false,&#10;        hint: String? = null&#10;) = testCase(InputClue(input, isPrivate, hint), input)&#10;&#10;&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Task3Test.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Task3Test.kt" />
+                                <option name="text" value="&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;&#10;&#10;class Task3Test : GeneratorTest&lt;InputClue&gt;() {&#10;&#10;    override fun generate() = listOf(&#10;            inputCase(&quot;Bill Gates\nVIP&quot;,&#10;                    hint = &quot;This test corresponds to the example #1.&quot;),&#10;&#10;            inputCase(&quot;Tom Smith\nWorker&quot;,&#10;                    hint = &quot;This test corresponds to the example #2.&quot;),&#10;&#10;            inputCase(&quot;Mr Anonimous\nParticipant&quot;,&#10;                    hint = &quot;This test corresponds to the example #3.&quot;),&#10;&#10;            inputCase(&quot;X Y\nVeryVeryLoooooooooongSatus&quot;,&#10;                    hint = &quot;This test checks a long status with even length.&quot;),&#10;&#10;            inputCase(&quot;X Y\nVeryVeryLooooooooooongSatus&quot;, true,&#10;                    &quot;This test checks a long status with uneven length.&quot;),&#10;&#10;            inputCase(&quot;X Y\nStatus  with spaces&quot;,&#10;                    hint = &quot;Status should be printed with the &quot; +&#10;                            &quot;same spaces as original, but name &quot; +&#10;                            &quot;and surname shouldn't contain spaces.&quot;),&#10;&#10;            inputCase(&quot;X Y\nStatus with   spaces!!!&quot;, true),&#10;&#10;            inputCase(('a'..'z').joinToString(&quot;&quot;) + &quot; Ivan\nHello&quot;, true,&#10;                    hint = &quot;This test checks all possible letters.&quot;)&#10;    )&#10;&#10;    private inline fun checkBadgeBorder(badge: String, onFailure: (msg: String) -&gt; Unit) {&#10;        val lines = badge.split(&quot;\n&quot;)&#10;&#10;        if (lines.map { it.length }.toSet().size != 1) {&#10;            onFailure(&quot;Your border is not rectangular.&quot;)&#10;            return&#10;        }&#10;        if (lines.size &lt; 2) {&#10;            onFailure(&quot;Your border is not rectangular.&quot;)&#10;            return&#10;        }&#10;        if (lines.first().any { it != '*' } || lines.last() != lines.first()) {&#10;            onFailure(&quot;Your top and bottom edges don't consist of '*'.&quot;)&#10;            return&#10;        }&#10;        if (!lines.drop(1).dropLast(1).all { it.startsWith(&quot;* &quot;) &amp;&amp; it.endsWith(&quot; *&quot;) }) {&#10;            onFailure(&quot;Your left and right edges don't consist of '*' with one space padding..&quot;)&#10;            return&#10;        }&#10;    }&#10;&#10;    /** Compare height, indentation and line contents. */&#10;    private inline fun compareBadges(user: String, author: String, onFailure: (msg: String) -&gt; Unit) {&#10;        val userLines = user.split(&quot;\n&quot;)&#10;        val authorLines = author.split(&quot;\n&quot;)&#10;&#10;        if (userLines.size != authorLines.size) {&#10;            onFailure(&quot;Signature height is incorrect: ${userLines.size} lines instead of ${authorLines.size}.&quot;)&#10;            return&#10;        }&#10;&#10;        userLines.zip(authorLines)&#10;                .forEach { (userStr, authorStr) -&gt;&#10;                    if (userStr.trim('*', ' ') != authorStr.trim('*', ' ')) {&#10;                        onFailure(&quot;Some line in your signature is incorrect.&quot;)&#10;                        return&#10;                    } else if (userStr != authorStr) {&#10;                        onFailure(&quot;Some indentation in your signature is incorrect.&quot;)&#10;                        return&#10;                    }&#10;                }&#10;    }&#10;&#10;&#10;    override fun check(reply: String, clue: InputClue): CheckResult {&#10;        val badgeStart = reply.indexOf('*')&#10;        if (badgeStart == -1) {&#10;            return CheckResult.FALSE(&quot;Your output doesn't contain a signature, wrapped in '*' symbols.&quot;)&#10;        }&#10;&#10;        val userBadge = reply&#10;                .substring(badgeStart)&#10;                .trim('\n', ' ')&#10;&#10;        checkBadgeBorder(userBadge) { errorMessage -&gt;&#10;            return CheckResult.FALSE(errorMessage)&#10;        }&#10;&#10;        val badge = authors(clue.input)&#10;&#10;        compareBadges(userBadge, badge) { errorMessage -&gt;&#10;            val (name, status) = clue.input.split(&quot;\n&quot;)&#10;            return clue.toFailure(&quot;Wrong output for input lines \&quot;$name\&quot; and \&quot;$status\&quot;. $errorMessage&quot;)&#10;        }&#10;&#10;        return CheckResult.TRUE&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Authors.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Authors.kt" />
+                                <option name="text" value="import java.lang.IllegalStateException&#10;import java.util.*&#10;&#10;class Letter(&#10;        val rows: List&lt;String&gt;&#10;) {&#10;&#10;    init {&#10;        if (rows.size != 3) {&#10;            throw IllegalArgumentException(&quot;Letter $rows must have 3 rows.&quot;)&#10;        }&#10;        if (rows.distinctBy { it.length }.size != 1) {&#10;            throw IllegalStateException(&quot;Bad letter. Not equal width in lines: ${rows.distinctBy { it.length }}&quot;)&#10;        }&#10;    }&#10;&#10;    override fun toString() = rows.joinToString(&quot;\n&quot;)&#10;&#10;    val width get() = rows[0]&#10;}&#10;&#10;val font = &quot;&quot;&quot;&#10;____ ___  ____ ___  ____ ____ ____ _  _ _  _ _  _ _    _  _ _  _ ____ ___  ____ ____ ____ ___ _  _ _  _ _ _ _ _  _ _   _ ___+&#10;|__| |__] |    |  \ |___ |___ | __ |__| |  | |_/  |    |\/| |\ | |  | |__] |  | |__/ [__   |  |  | |  | | | |  \/   \_/    /+&#10;|  | |__] |___ |__/ |___ |    |__] |  | | _| | \_ |___ |  | | \| |__| |    |_\| |  \ ___]  |  |__|  \/  |_|_| _/\_   |    /__&#10;&quot;&quot;&quot;.trim('\n').replace('+', ' ') // this works so, because someone (like stepik) possibly deletes trailing spaces in lines.&#10;&#10;&#10;// type your solution here&#10;&#10;fun makeLetters(): Map&lt;Char, Letter&gt; {&#10;    val lines = font.split('\n')&#10;&#10;    val letterBuilders = List(3) { StringBuilder() }&#10;    val letters = mutableListOf&lt;Letter&gt;()&#10;&#10;    for (i in 0 until lines[0].length) {&#10;        val slice = lines.map { it[i] }&#10;&#10;        if (slice.all { it == ' ' }) {&#10;            letters += Letter(letterBuilders.map { it.toString() })&#10;            letterBuilders.forEach { it.clear() }&#10;        } else {&#10;            letterBuilders.zip(slice).forEach { (b, s) -&gt; b.append(s) }&#10;        }&#10;    }&#10;    // Don't forget about the last!&#10;    letters += Letter(letterBuilders.map { it.toString() })&#10;&#10;    val charsToLetters = letters.mapIndexed { i, letter -&gt; 'a' + i to letter }.toMap().toMutableMap()&#10;    charsToLetters[' '] = Letter(List(3) { &quot;    &quot; })&#10;    return charsToLetters&#10;}&#10;&#10;/** Wrap with asterisks. */&#10;fun framed(lines: List&lt;String&gt;): String {&#10;&#10;    val builder = StringBuilder()&#10;    builder.append(&quot;*&quot;.repeat(lines[0].length + 6) + &quot;\n&quot;)&#10;    lines.forEach { line -&gt; builder.append(&quot;*  $line  *\n&quot;) }&#10;    builder.append(&quot;*&quot;.repeat(lines[0].length + 6))&#10;    return builder.toString()&#10;}&#10;&#10;fun centeredLines(lines: List&lt;String&gt;): List&lt;String&gt; {&#10;    val maxLen = lines.map { it.length }.max()!!&#10;&#10;    return lines.map { line -&gt;&#10;        val need = maxLen - line.length&#10;        &quot; &quot;.repeat(need / 2) + line + &quot; &quot;.repeat((need + 1) / 2)&#10;    }&#10;}&#10;&#10;fun authors(input: String): String {&#10;    val scanner = Scanner(input)&#10;    val name = scanner.next() + &quot; &quot; + scanner.next()&#10;    scanner.nextLine()&#10;    val status = scanner.nextLine()&#10;&#10;    val letters = makeLetters()&#10;    val nameLetters = name.toLowerCase().map { letters[it]!! }&#10;&#10;    val lines = (0..2).map { i -&gt;&#10;        nameLetters.map { it.rows[i] }.joinToString(&quot; &quot;)&#10;    } + status&#10;&#10;    return framed(centeredLines(lines))&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/signature/Main.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/signature/Main.kt" />
+                                <option name="text" value="package signature&#10;&#10;fun main() {&#10;    println(&quot;Hello, World!&quot;)&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1565264905000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" value="stage4" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Let's increase the font size again, and use another font, very similar to the real font called &quot;Times New Roman&quot;.&lt;/p&gt;&#10;&#10;&lt;p&gt;The first 4 lowercase English letters of the font are shown below:&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;           .o8                       .o8&#10;          &quot;888                      &quot;888&#10; .oooo.    888oooo.   .ooooo.   .oooo888&#10;`P  )88b   d88' `88b d88' `&quot;Y8 d88' `888&#10; .oP&quot;888   888   888 888       888   888&#10;d8(  888   888   888 888   .o8 888   888&#10;`Y888&quot;&quot;8o  `Y8bod8P' `Y8bod8P' `Y8bod88P&quot;&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt;You can download this font &lt;a href=&quot;https://stepik.org/media/attachments/lesson/226140/roman.txt&quot; rel=&quot;noopener noreferrer nofollow&quot;&gt;here&lt;/a&gt;. Also, you can download a smaller font from the previous example &lt;a href=&quot;https://stepik.org/media/attachments/lesson/226140/medium.txt&quot; rel=&quot;noopener noreferrer nofollow&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&#10;&#10;&lt;p&gt;As you may remember, the width of the space in the font &quot;medium&quot; is equal to 4 symbols. In the font &quot;roman&quot; your program should set the width of the space from the symbol &quot;a&quot; - space should be 10 symbols wide.&lt;/p&gt;&#10;&#10;&lt;p&gt;Pretty accurate, isn't it? Unfortunately, there is no space to include all lowercase and all uppercase letters.&lt;/p&gt;&#10;&#10;&lt;p&gt;All these fonts have a special description, included in their .txt file. The first line of the file contains two numbers. The first number is font size, indicating how many lines are needed to print one line of text using this font. For example, the font &quot;medium&quot; needs 3 lines, and the font &quot;roman&quot; needs 10. The second number is the number of characters described in the file. Both fonts have information about 52 characters: 26 uppercase and 26 lowercase letters.&lt;/p&gt;&#10;&#10;&lt;p&gt;The next lines contain information about characters, one after another. The information about one character contains this character in the first place, then the width of the character, and on the next lines, the character itself. Note, that these fonts contain a column of spaces at the end of every symbol, so you don't need to add any special.&lt;/p&gt;&#10;&#10;&lt;p&gt;Don't worry, reading text from a file is as simple as reading from a console. You can use a scanner to do this as well. Just instead of &lt;code&gt;System.`in`&lt;/code&gt;, pass &lt;code&gt;File(pathToFont)&lt;/code&gt; when creating a scanner. &lt;b&gt;Please, use an absolute path, to avoid problems with checking.&lt;/b&gt; For example, use &lt;code&gt;Scanner(File(&quot;C:/fonts/roman.txt&quot;))&lt;/code&gt; for the font &quot;roman&quot; on Windows. Or &lt;code&gt;Scanner(File(&quot;/home/username/fonts/roman.txt&quot;))&lt;/code&gt; on Linux/MacOS systems.&lt;/p&gt;&#10;&#10;&lt;p&gt;In this stage, you need to create a program that generates a name of the badge with the font &quot;roman.&quot; It should also print the status of this person with the font &quot;medium.&quot; The status of the person should be centered. Do not forget about cases when the length of the status is longer than the length of the name and surname! In these cases, the name and surname should be centered.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output examples&lt;/h2&gt;&#10;&#10;&lt;p&gt;The examples are shown below:&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter name and surname: Ian One&#10;Enter person's status: VIP&#10;888888888888888888888888888888888888888888888888888888888888888888888888888888888&#10;88  ooooo                                   .oooooo.                           88&#10;88  `888'                                  d8P'  `Y8b                          88&#10;88   888   .oooo.   ooo. .oo.             888      888 ooo. .oo.    .ooooo.    88&#10;88   888  `P  )88b  `888P&quot;Y88b            888      888 `888P&quot;Y88b  d88' `88b   88&#10;88   888   .oP&quot;888   888   888            888      888  888   888  888ooo888   88&#10;88   888  d8(  888   888   888            `88b    d88'  888   888  888    .o   88&#10;88  o888o `Y888&quot;&quot;8o o888o o888o            `Y8bood8P'  o888o o888o `Y8bod8P'   88&#10;88                                                                             88&#10;88                                                                             88&#10;88                                                                             88&#10;88                                _  _ _ ___                                   88&#10;88                                |  | | |__]                                  88&#10;88                                 \/  | |                                     88&#10;888888888888888888888888888888888888888888888888888888888888888888888888888888888&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Enter name and surname: A b&#10;Enter person's status: long participant&#10;88888888888888888888888888888888888888888888888888888888888888888888888888888888&#10;88                         .o.                  .o8                           88&#10;88                        .888.                &quot;888                           88&#10;88                       .8&quot;888.                888oooo.                      88&#10;88                      .8' `888.               d88' `88b                     88&#10;88                     .88ooo8888.              888   888                     88&#10;88                    .8'     `888.             888   888                     88&#10;88                   o88o     o8888o            `Y8bod8P'                     88&#10;88                                                                            88&#10;88                                                                            88&#10;88                                                                            88&#10;88  _    ____ _  _ ____      ___  ____ ____ ___ _ ____ _ ___  ____ _  _ ___   88&#10;88  |    |  | |\ | | __      |__] |__| |__/  |  | |    | |__] |__| |\ |  |    88&#10;88  |___ |__| | \| |__]      |    |  | |  \  |  | |___ | |    |  | | \|  |    88&#10;88888888888888888888888888888888888888888888888888888888888888888888888888888888&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt; &lt;/p&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/71/stages/393/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="6176" />
+                      <option name="index" value="4" />
+                      <option name="name" value="ASCII New Roman" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/GeneratorTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/GeneratorTest.java" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import signature.MainKt;&#10;&#10;public abstract class GeneratorTest&lt;T&gt; extends BaseStageTest&lt;T&gt; {&#10;    public GeneratorTest() throws Exception {&#10;        super(MainKt.class);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/TestCaseHelpers.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/TestCaseHelpers.kt" />
+                                <option name="text" value="import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;&#10;&#10;/** Default testCase. */&#10;fun &lt;T&gt; testCase(attach: T, input: String) = TestCase&lt;T&gt;().apply {&#10;    setInput(input)&#10;    setAttach(attach)&#10;}&#10;&#10;fun cipheredError() = CheckResult(false, &quot;Incorrect output. This is a private test.&quot;)&#10;&#10;/** Hide error description in private test. */&#10;fun CheckResult.ciphered() =&#10;        if (!isCorrect)&#10;            cipheredError()&#10;        else CheckResult(true, feedback)&#10;&#10;class InputClue(&#10;        val input: String,&#10;        val isPrivate: Boolean = false,&#10;        /** Hint will be printed even for private tests. */&#10;        val hint: String? = null&#10;) {&#10;&#10;    /** Ciphers [message] or adds a [hint] to the error if it is not null. */&#10;    fun toFailure(message: String): CheckResult {&#10;        if (isPrivate) {&#10;            return CheckResult.FALSE(&quot;Incorrect output. This is a private test. &quot; + (hint ?: &quot;&quot;))&#10;        } else {&#10;            return CheckResult.FALSE(&quot;$message ${hint ?: &quot;&quot;}&quot;)&#10;        }&#10;    }&#10;}&#10;&#10;fun inputCase(&#10;        input: String,&#10;        isPrivate: Boolean = false,&#10;        hint: String? = null&#10;) = testCase(InputClue(input, isPrivate, hint), input)&#10;&#10;&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Authors.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Authors.kt" />
+                                <option name="text" value="import java.util.*&#10;&#10;private class Letter(&#10;        val rows: List&lt;String&gt;&#10;) {&#10;    init {&#10;        if (rows.distinctBy { it.length }.size != 1) {&#10;            throw IllegalStateException(&quot;Bad letter. Not equal width in lines: ${rows.distinctBy { it.length }}&quot;)&#10;        }&#10;    }&#10;&#10;    val width get() = rows[0].length&#10;    val height get() = rows.size&#10;}&#10;&#10;private class Font(&#10;        val charsToLetters: MutableMap&lt;Char, Letter&gt;,&#10;        val height: Int&#10;) {&#10;    operator fun get(char: Char) = charsToLetters[char]&#10;}&#10;&#10;private fun makeLetters(fontStr: String): Font {&#10;    val scanner = Scanner(fontStr)&#10;&#10;    val h = scanner.nextInt()&#10;    val n = scanner.nextInt()&#10;&#10;    val charsToLetters = mutableMapOf&lt;Char, Letter&gt;()&#10;&#10;    repeat(n) {&#10;        val char = scanner.next()[0]&#10;        val w = scanner.nextInt()&#10;        scanner.nextLine()&#10;&#10;        val rows = mutableListOf&lt;String&gt;()&#10;        repeat(h) {&#10;            rows += scanner.nextLine().trimEnd('\n')&#10;        }&#10;        charsToLetters[char] = Letter(rows)&#10;    }&#10;&#10;    val letterA = charsToLetters['a']!!&#10;    charsToLetters[' '] = Letter(List(letterA.height) { &quot; &quot;.repeat(letterA.width) })&#10;&#10;    return Font(charsToLetters, h)&#10;}&#10;&#10;/** Wrap with eights. */&#10;fun framed(lines: List&lt;String&gt;): String {&#10;    val builder = StringBuilder()&#10;&#10;    builder.append(&quot;8&quot;.repeat(lines[0].length + 8) + &quot;\n&quot;)&#10;    lines.forEach { line -&gt;&#10;        builder.append(&quot;88  $line  88\n&quot;)&#10;    }&#10;    builder.append(&quot;8&quot;.repeat(lines[0].length + 8))&#10;    return builder.toString()&#10;}&#10;&#10;private fun centeredLines(lines: List&lt;String&gt;): List&lt;String&gt; {&#10;    val maxLen = lines.map { it.length }.max()!!&#10;&#10;    return lines.map { line -&gt;&#10;        val need = maxLen - line.length&#10;        &quot; &quot;.repeat(need / 2) + line + &quot; &quot;.repeat((need + 1) / 2)&#10;    }&#10;}&#10;&#10;fun authors(input: String): String {&#10;    val roman = makeLetters(romanFontStr)&#10;    val medium = makeLetters(mediumFontStr)&#10;&#10;    val scanner = Scanner(input)&#10;    val name = scanner.next() + &quot; &quot; + scanner.next()&#10;    scanner.nextLine()&#10;    val status = scanner.nextLine()&#10;&#10;    val nameLetters = name.map {&#10;        roman[it] ?: throw IllegalArgumentException(&quot;unknown letter $it in roman font&quot;)&#10;    }&#10;    val statusLetters = status.map {&#10;        medium[it] ?: throw IllegalArgumentException(&quot;unknown letter $it in medium font&quot;)&#10;    }&#10;&#10;    val lines = mutableListOf&lt;String&gt;()&#10;&#10;    repeat(roman.height) { i -&gt;&#10;        lines += nameLetters.map { it.rows[i] }.joinToString(&quot;&quot;)&#10;    }&#10;    repeat(medium.height) { i -&gt;&#10;        lines += statusLetters.map { it.rows[i] }.joinToString(&quot;&quot;)&#10;    }&#10;&#10;    return framed(centeredLines(lines))&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Task4Test.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Task4Test.kt" />
+                                <option name="text" value="&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;&#10;private val allLetters = (('a'..'z') + ('A'..'Z')).joinToString(&quot;&quot;)&#10;&#10;class Task4Test : GeneratorTest&lt;InputClue&gt;() {&#10;&#10;    override fun generate() = listOf(&#10;            inputCase(&quot;Ian One\nVIP&quot;,&#10;                    hint = &quot;This test corresponds to the example #1.&quot;),&#10;&#10;            inputCase(&quot;A b\nlong participant&quot;,&#10;                    hint = &quot;This test corresponds to the example #2.&quot;),&#10;&#10;            inputCase(&quot;Bill Gates\nVIP&quot;),&#10;            inputCase(&quot;Tom Smith\nWorker&quot;),&#10;            inputCase(&quot;Mr Anonimous\nParticipant&quot;),&#10;&#10;            inputCase(&quot;X Y\nAbcdAbcdAbcdAbcd&quot;, true,&#10;                    &quot;This test checks a long status with even length.&quot;),&#10;&#10;            inputCase(&quot;X Y\nAbcdAbcdAbcdAbcdA&quot;, true,&#10;                    &quot;This test checks a long status with uneven length.&quot;),&#10;&#10;            inputCase(&quot;X Y\nStatus  with spaces&quot;,&#10;                    hint = &quot;Status should be printed with &quot; +&#10;                            &quot;the same spaces as original, but &quot; +&#10;                            &quot;name and surname shouldn't contain spaces.&quot;),&#10;&#10;            inputCase(&quot;$allLetters Ivan\nHello&quot;, true,&#10;                    hint = &quot;This test checks all possible letters for name.&quot;),&#10;&#10;            inputCase(&quot;Ivan Ivan\n$allLetters&quot;, true,&#10;                    hint = &quot;This test checks all possible letters for status.&quot;)&#10;    )&#10;&#10;&#10;    private inline fun checkBadgeBorder(badge: String, onFailure: (msg: String) -&gt; Unit) {&#10;        val lines = badge.split(&quot;\n&quot;)&#10;&#10;        if (lines.map { it.length }.toSet().size != 1) {&#10;            onFailure(&quot;Your border is not rectangular.&quot;)&#10;            return&#10;        }&#10;        if (lines.size &lt; 2) {&#10;            onFailure(&quot;Your border is not rectangular.&quot;)&#10;            return&#10;        }&#10;        if (lines.first().any { it != '8' } || lines.last() != lines.first()) {&#10;            onFailure(&quot;Your top and bottom edges don't consist of '8'.&quot;)&#10;            return&#10;        }&#10;        if (!lines.drop(1).dropLast(1).all { it.startsWith(&quot;88  &quot;) &amp;&amp; it.endsWith(&quot;  88&quot;) }) {&#10;            onFailure(&quot;Your left and right edges don't consist of \&quot;88\&quot; with two spaces padding.&quot;)&#10;            return&#10;        }&#10;    }&#10;&#10;    /** Compare height, indentation and line contents. */&#10;    private inline fun compareBadges(user: String, author: String, onFailure: (msg: String) -&gt; Unit) {&#10;        val userLines = user.split(&quot;\n&quot;)&#10;        val authorLines = author.split(&quot;\n&quot;)&#10;&#10;        if (userLines.size != authorLines.size) {&#10;            onFailure(&quot;Signature height is incorrect: ${userLines.size} lines instead of ${authorLines.size}.&quot;)&#10;            return&#10;        }&#10;&#10;        userLines.zip(authorLines)&#10;                .forEach { (userStr, authorStr) -&gt;&#10;                    if (userStr.trim('8', ' ') != authorStr.trim('8', ' ')) {&#10;                        onFailure(&quot;Some line in your signature is incorrect.&quot;)&#10;                        return&#10;                    } else if (userStr != authorStr) {&#10;                        onFailure(&quot;Some indentation in your signature is incorrect.&quot;)&#10;                        return&#10;                    }&#10;                }&#10;    }&#10;&#10;    override fun check(reply: String, clue: InputClue): CheckResult {&#10;        val badgeStart = reply.indexOf('8')&#10;        if (badgeStart == -1) {&#10;            return CheckResult.FALSE(&quot;Your output doesn't contain a signature, wrapped in '8' symbols.&quot;)&#10;        }&#10;&#10;        val userBadge = reply&#10;                .substring(badgeStart)&#10;                .trim('\n', ' ')&#10;&#10;        checkBadgeBorder(userBadge) { errorMessage -&gt;&#10;            return CheckResult.FALSE(errorMessage)&#10;        }&#10;&#10;        val badge = authors(clue.input)&#10;&#10;        compareBadges(userBadge, badge) { errorMessage -&gt;&#10;            val (name, status) = clue.input.split(&quot;\n&quot;)&#10;            return clue.toFailure(&quot;Wrong output for input lines \&quot;$name\&quot; and \&quot;$status\&quot;. $errorMessage&quot;)&#10;        }&#10;        return CheckResult.TRUE&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/FontsHardcoded.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/FontsHardcoded.kt" />
+                                <option name="text" value="&#10;val romanFontStr = &quot;&quot;&quot;10+52&#10;a+10&#10;++++++++++&#10;++++++++++&#10;+.oooo.+++&#10;`P++)88b++&#10;+.oP&quot;888++&#10;d8(++888++&#10;`Y888&quot;&quot;8o+&#10;++++++++++&#10;++++++++++&#10;++++++++++&#10;b+11&#10;+.o8+++++++&#10;&quot;888+++++++&#10;+888oooo.++&#10;+d88'+`88b+&#10;+888+++888+&#10;+888+++888+&#10;+`Y8bod8P'+&#10;+++++++++++&#10;+++++++++++&#10;+++++++++++&#10;c+10&#10;++++++++++&#10;++++++++++&#10;+.ooooo.++&#10;d88'+`&quot;Y8+&#10;888+++++++&#10;888+++.o8+&#10;`Y8bod8P'+&#10;++++++++++&#10;++++++++++&#10;++++++++++&#10;d+11&#10;++++++.o8++&#10;+++++&quot;888++&#10;+.oooo888++&#10;d88'+`888++&#10;888+++888++&#10;888+++888++&#10;`Y8bod88P&quot;+&#10;+++++++++++&#10;+++++++++++&#10;+++++++++++&#10;e+10&#10;++++++++++&#10;++++++++++&#10;+.ooooo.++&#10;d88'+`88b+&#10;888ooo888+&#10;888++++.o+&#10;`Y8bod8P'+&#10;++++++++++&#10;++++++++++&#10;++++++++++&#10;f+8&#10;+.o88o.+&#10;+888+`&quot;+&#10;o888oo++&#10;+888++++&#10;+888++++&#10;+888++++&#10;o888o+++&#10;++++++++&#10;++++++++&#10;++++++++&#10;g+11&#10;+++++++++++&#10;+++++++++++&#10;+.oooooooo+&#10;888'+`88b++&#10;888+++888++&#10;`88bod8P'++&#10;`8oooooo.++&#10;d&quot;+++++YD++&#10;&quot;Y88888P'++&#10;+++++++++++&#10;h+12&#10;oooo++++++++&#10;`888++++++++&#10;+888+.oo.+++&#10;+888P&quot;Y88b++&#10;+888+++888++&#10;+888+++888++&#10;o888o+o888o+&#10;++++++++++++&#10;++++++++++++&#10;++++++++++++&#10;i+6&#10;+o8o++&#10;+`&quot;'++&#10;oooo++&#10;`888++&#10;+888++&#10;+888++&#10;o888o+&#10;++++++&#10;++++++&#10;++++++&#10;j+8&#10;++++o8o+&#10;++++`&quot;'+&#10;+++oooo+&#10;+++`888+&#10;++++888+&#10;++++888+&#10;++++888+&#10;++++888+&#10;.o.+88P+&#10;`Y888P++&#10;k+12&#10;oooo++++++++&#10;`888++++++++&#10;+888++oooo++&#10;+888+.8P'+++&#10;+888888.++++&#10;+888+`88b.++&#10;o888o+o888o+&#10;++++++++++++&#10;++++++++++++&#10;++++++++++++&#10;l+6&#10;oooo++&#10;`888++&#10;+888++&#10;+888++&#10;+888++&#10;+888++&#10;o888o+&#10;++++++&#10;++++++&#10;++++++&#10;m+18&#10;++++++++++++++++++&#10;++++++++++++++++++&#10;ooo.+.oo.++.oo.+++&#10;`888P&quot;Y88bP&quot;Y88b++&#10;+888+++888+++888++&#10;+888+++888+++888++&#10;o888o+o888o+o888o+&#10;++++++++++++++++++&#10;++++++++++++++++++&#10;++++++++++++++++++&#10;n+12&#10;++++++++++++&#10;++++++++++++&#10;ooo.+.oo.+++&#10;`888P&quot;Y88b++&#10;+888+++888++&#10;+888+++888++&#10;o888o+o888o+&#10;++++++++++++&#10;++++++++++++&#10;++++++++++++&#10;o+10&#10;++++++++++&#10;++++++++++&#10;+.ooooo.++&#10;d88'+`88b+&#10;888+++888+&#10;888+++888+&#10;`Y8bod8P'+&#10;++++++++++&#10;++++++++++&#10;++++++++++&#10;p+11&#10;+++++++++++&#10;+++++++++++&#10;oo.ooooo.++&#10;+888'+`88b+&#10;+888+++888+&#10;+888+++888+&#10;+888bod8P'+&#10;+888+++++++&#10;o888o++++++&#10;+++++++++++&#10;q+11&#10;+++++++++++&#10;+++++++++++&#10;+.ooooo+oo+&#10;d88'+`888++&#10;888+++888++&#10;888+++888++&#10;`V8bod888++&#10;++++++888.+&#10;++++++8P'++&#10;++++++&quot;++++&#10;r+9&#10;+++++++++&#10;+++++++++&#10;oooo+d8b+&#10;`888&quot;&quot;8P+&#10;+888+++++&#10;+888+++++&#10;d888b++++&#10;+++++++++&#10;+++++++++&#10;+++++++++&#10;s+9&#10;+++++++++&#10;+++++++++&#10;+.oooo.o+&#10;d88(++&quot;8+&#10;`&quot;Y88b.++&#10;o.++)88b+&#10;8&quot;&quot;888P'+&#10;+++++++++&#10;+++++++++&#10;+++++++++&#10;t+8&#10;++++.+++&#10;++.o8+++&#10;.o888oo+&#10;++888+++&#10;++888+++&#10;++888+.+&#10;++&quot;888&quot;+&#10;++++++++&#10;++++++++&#10;++++++++&#10;u+12&#10;++++++++++++&#10;++++++++++++&#10;oooo++oooo++&#10;`888++`888++&#10;+888+++888++&#10;+888+++888++&#10;+`V88V&quot;V8P'+&#10;++++++++++++&#10;++++++++++++&#10;++++++++++++&#10;v+12&#10;++++++++++++&#10;++++++++++++&#10;oooo++++ooo+&#10;+`88.++.8'++&#10;++`88..8'+++&#10;+++`888'++++&#10;++++`8'+++++&#10;++++++++++++&#10;++++++++++++&#10;++++++++++++&#10;w+17&#10;+++++++++++++++++&#10;+++++++++++++++++&#10;oooo+oooo++++ooo+&#10;+`88.+`88.++.8'++&#10;++`88..]88..8'+++&#10;+++`888'`888'++++&#10;++++`8'++`8'+++++&#10;+++++++++++++++++&#10;+++++++++++++++++&#10;+++++++++++++++++&#10;x+12&#10;++++++++++++&#10;++++++++++++&#10;oooo++++ooo+&#10;+`88b..8P'++&#10;+++Y888'++++&#10;+.o8&quot;'88b+++&#10;o88'+++888o+&#10;++++++++++++&#10;++++++++++++&#10;++++++++++++&#10;y+12&#10;++++++++++++&#10;++++++++++++&#10;oooo++++ooo+&#10;+`88.++.8'++&#10;++`88..8'+++&#10;+++`888'++++&#10;++++.8'+++++&#10;.o..P'++++++&#10;`Y8P'+++++++&#10;++++++++++++&#10;z+11&#10;+++++++++++&#10;+++++++++++&#10;++oooooooo+&#10;+d'&quot;&quot;7d8P++&#10;+++.d8P'+++&#10;+.d8P'++.P+&#10;d8888888P++&#10;+++++++++++&#10;+++++++++++&#10;+++++++++++&#10;A+16&#10;++++++.o.+++++++&#10;+++++.888.++++++&#10;++++.8&quot;888.+++++&#10;+++.8'+`888.++++&#10;++.88ooo8888.+++&#10;+.8'+++++`888.++&#10;o88o+++++o8888o+&#10;++++++++++++++++&#10;++++++++++++++++&#10;++++++++++++++++&#10;B+13&#10;oooooooooo.++&#10;`888'+++`Y8b+&#10;+888+++++888+&#10;+888oooo888'+&#10;+888++++`88b+&#10;+888++++.88P+&#10;o888bood8P'++&#10;+++++++++++++&#10;+++++++++++++&#10;+++++++++++++&#10;C+13&#10;++.oooooo.+++&#10;+d8P'++`Y8b++&#10;888++++++++++&#10;888++++++++++&#10;888++++++++++&#10;`88b++++ooo++&#10;+`Y8bood8P'++&#10;+++++++++++++&#10;+++++++++++++&#10;+++++++++++++&#10;D+14&#10;oooooooooo.+++&#10;`888'+++`Y8b++&#10;+888++++++888+&#10;+888++++++888+&#10;+888++++++888+&#10;+888+++++d88'+&#10;o888bood8P'+++&#10;++++++++++++++&#10;++++++++++++++&#10;++++++++++++++&#10;E+13&#10;oooooooooooo+&#10;`888'+++++`8+&#10;+888+++++++++&#10;+888oooo8++++&#10;+888++++&quot;++++&#10;+888+++++++o+&#10;o888ooooood8+&#10;+++++++++++++&#10;+++++++++++++&#10;+++++++++++++&#10;F+13&#10;oooooooooooo+&#10;`888'+++++`8+&#10;+888+++++++++&#10;+888oooo8++++&#10;+888++++&quot;++++&#10;+888+++++++++&#10;o888o++++++++&#10;+++++++++++++&#10;+++++++++++++&#10;+++++++++++++&#10;G+14&#10;++.oooooo.++++&#10;+d8P'++`Y8b+++&#10;888+++++++++++&#10;888+++++++++++&#10;888+++++ooooo+&#10;`88.++++.88'++&#10;+`Y8bood8P'+++&#10;++++++++++++++&#10;++++++++++++++&#10;++++++++++++++&#10;H+14&#10;ooooo+++ooooo+&#10;`888'+++`888'+&#10;+888+++++888++&#10;+888ooooo888++&#10;+888+++++888++&#10;+888+++++888++&#10;o888o+++o888o+&#10;++++++++++++++&#10;++++++++++++++&#10;++++++++++++++&#10;I+6&#10;ooooo+&#10;`888'+&#10;+888++&#10;+888++&#10;+888++&#10;+888++&#10;o888o+&#10;++++++&#10;++++++&#10;++++++&#10;J+8&#10;+++oooo+&#10;+++`888+&#10;++++888+&#10;++++888+&#10;++++888+&#10;++++888+&#10;.o.+88P+&#10;`Y888P++&#10;++++++++&#10;++++++++&#10;K+13&#10;oooo++++oooo+&#10;`888+++.8P'++&#10;+888++d8'++++&#10;+88888[++++++&#10;+888`88b.++++&#10;+888++`88b.++&#10;o888o++o888o+&#10;+++++++++++++&#10;+++++++++++++&#10;+++++++++++++&#10;L+13&#10;ooooo++++++++&#10;`888'++++++++&#10;+888+++++++++&#10;+888+++++++++&#10;+888+++++++++&#10;+888+++++++o+&#10;o888ooooood8+&#10;+++++++++++++&#10;+++++++++++++&#10;+++++++++++++&#10;M+17&#10;ooo++++++++ooooo+&#10;`88.+++++++.888'+&#10;+888b+++++d'888++&#10;+8+Y88.+.P++888++&#10;+8++`888'+++888++&#10;+8++++Y+++++888++&#10;o8o++++++++o888o+&#10;+++++++++++++++++&#10;+++++++++++++++++&#10;+++++++++++++++++&#10;N+15&#10;ooooo++++++ooo+&#10;`888b.+++++`8'+&#10;+8+`88b.++++8++&#10;+8+++`88b.++8++&#10;+8+++++`88b.8++&#10;+8+++++++`888++&#10;o8o++++++++`8++&#10;+++++++++++++++&#10;+++++++++++++++&#10;+++++++++++++++&#10;O+13&#10;++.oooooo.+++&#10;+d8P'++`Y8b++&#10;888++++++888+&#10;888++++++888+&#10;888++++++888+&#10;`88b++++d88'+&#10;+`Y8bood8P'++&#10;+++++++++++++&#10;+++++++++++++&#10;+++++++++++++&#10;P+13&#10;ooooooooo.+++&#10;`888+++`Y88.+&#10;+888+++.d88'+&#10;+888ooo88P'++&#10;+888+++++++++&#10;+888+++++++++&#10;o888o++++++++&#10;+++++++++++++&#10;+++++++++++++&#10;+++++++++++++&#10;Q+16&#10;++.oooooo.++++++&#10;+d8P'++`Y8b+++++&#10;888++++++888++++&#10;888++++++888++++&#10;888++++++888++++&#10;`88b++++d88b++++&#10;+`Y8bood8P'Ybd'+&#10;++++++++++++++++&#10;++++++++++++++++&#10;++++++++++++++++&#10;R+13&#10;ooooooooo.+++&#10;`888+++`Y88.+&#10;+888+++.d88'+&#10;+888ooo88P'++&#10;+888`88b.++++&#10;+888++`88b.++&#10;o888o++o888o+&#10;+++++++++++++&#10;+++++++++++++&#10;+++++++++++++&#10;S+12&#10;+.oooooo..o+&#10;d8P'++++`Y8+&#10;Y88bo.++++++&#10;+`&quot;Y8888o.++&#10;+++++`&quot;Y88b+&#10;oo+++++.d8P+&#10;8&quot;&quot;88888P'++&#10;++++++++++++&#10;++++++++++++&#10;++++++++++++&#10;T+14&#10;ooooooooooooo+&#10;8'+++888+++`8+&#10;+++++888++++++&#10;+++++888++++++&#10;+++++888++++++&#10;+++++888++++++&#10;++++o888o+++++&#10;++++++++++++++&#10;++++++++++++++&#10;++++++++++++++&#10;U+14&#10;ooooo+++++ooo+&#10;`888'+++++`8'+&#10;+888+++++++8++&#10;+888+++++++8++&#10;+888+++++++8++&#10;+`88.++++.8'++&#10;+++`YbodP'++++&#10;++++++++++++++&#10;++++++++++++++&#10;++++++++++++++&#10;V+16&#10;oooooo+++++oooo+&#10;+`888.+++++.8'++&#10;++`888.+++.8'+++&#10;+++`888.+.8'++++&#10;++++`888.8'+++++&#10;+++++`888'++++++&#10;++++++`8'+++++++&#10;++++++++++++++++&#10;++++++++++++++++&#10;++++++++++++++++&#10;W+25&#10;oooooo+++oooooo+++++oooo+&#10;+`888.++++`888.+++++.8'++&#10;++`888.+++.8888.+++.8'+++&#10;+++`888++.8'`888.+.8'++++&#10;++++`888.8'++`888.8'+++++&#10;+++++`888'++++`888'++++++&#10;++++++`8'++++++`8'+++++++&#10;+++++++++++++++++++++++++&#10;+++++++++++++++++++++++++&#10;+++++++++++++++++++++++++&#10;X+15&#10;ooooooo++ooooo+&#10;+`8888++++d8'++&#10;+++Y888..8P++++&#10;++++`8888'+++++&#10;+++.8PY888.++++&#10;++d8'++`888b+++&#10;o888o++o88888o+&#10;+++++++++++++++&#10;+++++++++++++++&#10;+++++++++++++++&#10;Y+14&#10;oooooo+++oooo+&#10;+`888.+++.8'++&#10;++`888.+.8'+++&#10;+++`888.8'++++&#10;++++`888'+++++&#10;+++++888++++++&#10;++++o888o+++++&#10;++++++++++++++&#10;++++++++++++++&#10;++++++++++++++&#10;Z+14&#10;+oooooooooooo+&#10;d'&quot;&quot;${'&quot;'}${'&quot;'}${'&quot;'}${'&quot;'}d888'+&#10;++++++.888P+++&#10;+++++d888'++++&#10;+++.888P++++++&#10;++d888'++++.P+&#10;.8888888888P++&#10;++++++++++++++&#10;++++++++++++++&#10;++++++++++++++&quot;&quot;&quot;.replace('+', ' ') // this works so, because someone (like stepik) possibly deletes trailing spaces in lines.&#10;&#10;val mediumFontStr = &quot;&quot;&quot;3+52&#10;a+5&#10;____+&#10;|__|+&#10;|++|+&#10;b+5&#10;___++&#10;|__]+&#10;|__]+&#10;c+5&#10;____+&#10;|++++&#10;|___+&#10;d+5&#10;___++&#10;|++\+&#10;|__/+&#10;e+5&#10;____+&#10;|___+&#10;|___+&#10;f+5&#10;____+&#10;|___+&#10;|++++&#10;g+5&#10;____+&#10;|+__+&#10;|__]+&#10;h+5&#10;_++_+&#10;|__|+&#10;|++|+&#10;i+2&#10;_+&#10;|+&#10;|+&#10;j+3&#10;+_+&#10;+|+&#10;_|+&#10;k+5&#10;_++_+&#10;|_/++&#10;|+\_+&#10;l+5&#10;_++++&#10;|++++&#10;|___+&#10;m+5&#10;_++_+&#10;|\/|+&#10;|++|+&#10;n+5&#10;_++_+&#10;|\+|+&#10;|+\|+&#10;o+5&#10;____+&#10;|++|+&#10;|__|+&#10;p+5&#10;___++&#10;|__]+&#10;|++++&#10;q+5&#10;____+&#10;|++|+&#10;|_\|+&#10;r+5&#10;____+&#10;|__/+&#10;|++\+&#10;s+5&#10;____+&#10;[__++&#10;___]+&#10;t+4&#10;___+&#10;+|++&#10;+|++&#10;u+5&#10;_++_+&#10;|++|+&#10;|__|+&#10;v+5&#10;_++_+&#10;|++|+&#10;+\/++&#10;w+6&#10;_+_+_+&#10;|+|+|+&#10;|_|_|+&#10;x+5&#10;_++_+&#10;+\/++&#10;_/\_+&#10;y+6&#10;_+++_+&#10;+\_/++&#10;++|+++&#10;z+5&#10;___++&#10;++/++&#10;+/__+&#10;A+5&#10;____+&#10;|__|+&#10;|++|+&#10;B+5&#10;___++&#10;|__]+&#10;|__]+&#10;C+5&#10;____+&#10;|++++&#10;|___+&#10;D+5&#10;___++&#10;|++\+&#10;|__/+&#10;E+5&#10;____+&#10;|___+&#10;|___+&#10;F+5&#10;____+&#10;|___+&#10;|++++&#10;G+5&#10;____+&#10;|+__+&#10;|__]+&#10;H+5&#10;_++_+&#10;|__|+&#10;|++|+&#10;I+2&#10;_+&#10;|+&#10;|+&#10;J+3&#10;+_+&#10;+|+&#10;_|+&#10;K+5&#10;_++_+&#10;|_/++&#10;|+\_+&#10;L+5&#10;_++++&#10;|++++&#10;|___+&#10;M+5&#10;_++_+&#10;|\/|+&#10;|++|+&#10;N+5&#10;_++_+&#10;|\+|+&#10;|+\|+&#10;O+5&#10;____+&#10;|++|+&#10;|__|+&#10;P+5&#10;___++&#10;|__]+&#10;|++++&#10;Q+5&#10;____+&#10;|++|+&#10;|_\|+&#10;R+5&#10;____+&#10;|__/+&#10;|++\+&#10;S+5&#10;____+&#10;[__++&#10;___]+&#10;T+4&#10;___+&#10;+|++&#10;+|++&#10;U+5&#10;_++_+&#10;|++|+&#10;|__|+&#10;V+5&#10;_++_+&#10;|++|+&#10;+\/++&#10;W+6&#10;_+_+_+&#10;|+|+|+&#10;|_|_|+&#10;X+5&#10;_++_+&#10;+\/++&#10;_/\_+&#10;Y+6&#10;_+++_+&#10;+\_/++&#10;++|+++&#10;Z+5&#10;___++&#10;++/++&#10;+/__+&quot;&quot;&quot;.replace('+', ' ') // this works so, because someone (like stepik) possibly deletes trailing spaces in lines.&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/signature/Main.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/signature/Main.kt" />
+                                <option name="text" value="package signature&#10;&#10;fun main() {&#10;    println(&quot;Hello, World!&quot;)&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1565263943000" />
+                    </EduTask>
+                  </list>
+                </option>
+              </FrameworkLesson>
+            </list>
+          </option>
+        </HyperskillCourse>
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>
