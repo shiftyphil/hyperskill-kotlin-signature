@@ -247,7 +247,7 @@
           <option name="items">
             <list>
               <FrameworkLesson>
-                <option name="currentTaskIndex" value="2" />
+                <option name="currentTaskIndex" value="3" />
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="1" />
@@ -423,7 +423,7 @@
                       <option name="id" value="6175" />
                       <option name="index" value="3" />
                       <option name="name" value="Make it notable" />
-                      <option name="record" value="-1" />
+                      <option name="record" value="3" />
                       <option name="status" value="Solved" />
                       <option name="files">
                         <map>
@@ -515,7 +515,7 @@
                       <option name="index" value="4" />
                       <option name="name" value="ASCII New Roman" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/GeneratorTest.java">
@@ -594,7 +594,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/signature/Main.kt" />
                                 <option name="text" value="package signature&#10;&#10;fun main() {&#10;    println(&quot;Hello, World!&quot;)&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />

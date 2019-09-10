@@ -1,68 +1,64 @@
-import java.lang.IllegalStateException
 import java.util.*
 
-class Letter(
+private class Letter(
         val rows: List<String>
 ) {
-
     init {
-        if (rows.size != 3) {
-            throw IllegalArgumentException("Letter $rows must have 3 rows.")
-        }
         if (rows.distinctBy { it.length }.size != 1) {
             throw IllegalStateException("Bad letter. Not equal width in lines: ${rows.distinctBy { it.length }}")
         }
     }
 
-    override fun toString() = rows.joinToString("\n")
-
-    val width get() = rows[0]
+    val width get() = rows[0].length
+    val height get() = rows.size
 }
 
-val font = """
-____ ___  ____ ___  ____ ____ ____ _  _ _  _ _  _ _    _  _ _  _ ____ ___  ____ ____ ____ ___ _  _ _  _ _ _ _ _  _ _   _ ___+
-|__| |__] |    |  \ |___ |___ | __ |__| |  | |_/  |    |\/| |\ | |  | |__] |  | |__/ [__   |  |  | |  | | | |  \/   \_/    /+
-|  | |__] |___ |__/ |___ |    |__] |  | | _| | \_ |___ |  | | \| |__| |    |_\| |  \ ___]  |  |__|  \/  |_|_| _/\_   |    /__
-""".trim('\n').replace('+', ' ') // this works so, because someone (like stepik) possibly deletes trailing spaces in lines.
+private class Font(
+        val charsToLetters: MutableMap<Char, Letter>,
+        val height: Int
+) {
+    operator fun get(char: Char) = charsToLetters[char]
+}
 
+private fun makeLetters(fontStr: String): Font {
+    val scanner = Scanner(fontStr)
 
-// type your solution here
+    val h = scanner.nextInt()
+    val n = scanner.nextInt()
 
-fun makeLetters(): Map<Char, Letter> {
-    val lines = font.split('\n')
+    val charsToLetters = mutableMapOf<Char, Letter>()
 
-    val letterBuilders = List(3) { StringBuilder() }
-    val letters = mutableListOf<Letter>()
+    repeat(n) {
+        val char = scanner.next()[0]
+        val w = scanner.nextInt()
+        scanner.nextLine()
 
-    for (i in 0 until lines[0].length) {
-        val slice = lines.map { it[i] }
-
-        if (slice.all { it == ' ' }) {
-            letters += Letter(letterBuilders.map { it.toString() })
-            letterBuilders.forEach { it.clear() }
-        } else {
-            letterBuilders.zip(slice).forEach { (b, s) -> b.append(s) }
+        val rows = mutableListOf<String>()
+        repeat(h) {
+            rows += scanner.nextLine().trimEnd('\n')
         }
+        charsToLetters[char] = Letter(rows)
     }
-    // Don't forget about the last!
-    letters += Letter(letterBuilders.map { it.toString() })
 
-    val charsToLetters = letters.mapIndexed { i, letter -> 'a' + i to letter }.toMap().toMutableMap()
-    charsToLetters[' '] = Letter(List(3) { "    " })
-    return charsToLetters
+    val letterA = charsToLetters['a']!!
+    charsToLetters[' '] = Letter(List(letterA.height) { " ".repeat(letterA.width) })
+
+    return Font(charsToLetters, h)
 }
 
-/** Wrap with asterisks. */
+/** Wrap with eights. */
 fun framed(lines: List<String>): String {
-
     val builder = StringBuilder()
-    builder.append("*".repeat(lines[0].length + 6) + "\n")
-    lines.forEach { line -> builder.append("*  $line  *\n") }
-    builder.append("*".repeat(lines[0].length + 6))
+
+    builder.append("8".repeat(lines[0].length + 8) + "\n")
+    lines.forEach { line ->
+        builder.append("88  $line  88\n")
+    }
+    builder.append("8".repeat(lines[0].length + 8))
     return builder.toString()
 }
 
-fun centeredLines(lines: List<String>): List<String> {
+private fun centeredLines(lines: List<String>): List<String> {
     val maxLen = lines.map { it.length }.max()!!
 
     return lines.map { line ->
@@ -72,17 +68,29 @@ fun centeredLines(lines: List<String>): List<String> {
 }
 
 fun authors(input: String): String {
+    val roman = makeLetters(romanFontStr)
+    val medium = makeLetters(mediumFontStr)
+
     val scanner = Scanner(input)
     val name = scanner.next() + " " + scanner.next()
     scanner.nextLine()
     val status = scanner.nextLine()
 
-    val letters = makeLetters()
-    val nameLetters = name.toLowerCase().map { letters[it]!! }
+    val nameLetters = name.map {
+        roman[it] ?: throw IllegalArgumentException("unknown letter $it in roman font")
+    }
+    val statusLetters = status.map {
+        medium[it] ?: throw IllegalArgumentException("unknown letter $it in medium font")
+    }
 
-    val lines = (0..2).map { i ->
-        nameLetters.map { it.rows[i] }.joinToString(" ")
-    } + status
+    val lines = mutableListOf<String>()
+
+    repeat(roman.height) { i ->
+        lines += nameLetters.map { it.rows[i] }.joinToString("")
+    }
+    repeat(medium.height) { i ->
+        lines += statusLetters.map { it.rows[i] }.joinToString("")
+    }
 
     return framed(centeredLines(lines))
 }

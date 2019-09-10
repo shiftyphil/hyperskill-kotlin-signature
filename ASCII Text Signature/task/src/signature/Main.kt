@@ -1,168 +1,71 @@
 package signature
 
+import java.io.File
 import java.lang.Integer.max
 import java.util.Scanner
 
-enum class Font(val character: Char, val data: Array<String>) {
-    ERR('*', arrayOf(
-            "****",
-            "****",
-            "****"
-    )),
-    SPACE(' ', arrayOf(
-            "    ",
-            "    ",
-            "    "
-    )),
-    A('a', arrayOf(
-            "____",
-            "|__|",
-            "|  |"
-    )),
-    B('b', arrayOf(
-            "___ ",
-            "|__]",
-            "|__]"
-    )),
-    C('c', arrayOf(
-            "____",
-            "|   ",
-            "|___"
-    )),
-    D('d', arrayOf(
-            "___ ",
-            "|  \\",
-            "|__/"
-    )),
-    E('e', arrayOf(
-            "____",
-            "|___",
-            "|___"
-    )),
-    F('f', arrayOf(
-            "____",
-            "|___",
-            "|   "
-    )),
-    G('g', arrayOf(
-            "____",
-            "| __",
-            "|__]"
-    )),
-    H('h', arrayOf(
-            "_  _",
-            "|__|",
-            "|  |"
-    )),
-    I('i', arrayOf(
-            "_",
-            "|",
-            "|"
-    )),
-    J('j', arrayOf(
-            " _",
-            " |",
-            "_|"
-    )),
-    K('k', arrayOf(
-            "_  _",
-            "|_/ ",
-            "| \\_"
-    )),
-    L('l', arrayOf(
-            "_   ",
-            "|   ",
-            "|___"
-    )),
-    M('m', arrayOf(
-            "_  _",
-            "|\\/|",
-            "|  |"
-    )),
-    N('n', arrayOf(
-            "_  _",
-            "|\\ |",
-            "| \\|"
-    )),
-    O('o', arrayOf(
-            "____",
-            "|  |",
-            "|__|"
-    )),
-    P('p', arrayOf(
-            "___ ",
-            "|__]",
-            "|   "
-    )),
-    Q('q', arrayOf(
-            "____",
-            "|  |",
-            "|_\\|"
-    )),
-    R('r', arrayOf(
-            "____",
-            "|__/",
-            "|  \\"
-    )),
-    S('s', arrayOf(
-            "____",
-            "[__ ",
-            "___]"
-    )),
-    T('t', arrayOf(
-            "___",
-            " | ",
-            " | "
-    )),
-    U('u', arrayOf(
-            "_  _",
-            "|  |",
-            "|__|"
-    )),
-    V('v', arrayOf(
-            "_  _",
-            "|  |",
-            " \\/ "
-    )),
-    W('w', arrayOf(
-            "_ _ _",
-            "| | |",
-            "|_|_|"
-    )),
-    X('x', arrayOf(
-            "_  _",
-            " \\/ ",
-            "_/\\_"
-    )),
-    Y('y', arrayOf(
-            "_   _",
-            " \\_/ ",
-            "  |  "
-    )),
-    Z('z', arrayOf(
-            "___ ",
-            "  / ",
-            " /__"
-    ))
-    ;
-
-    fun getWidth(): Int {
-        return data[0].length
+class Font(val height: Int,
+           private val characters: Map<Char, Character>) {
+    fun getCharacter(c: Char): Character {
+        return characters[c] ?: characters[0.toChar()] ?: error("Null char not found?")
     }
 
+    fun getWidth(s: String): Int = s.sumBy { getCharacter(it).width }
+
+    fun getRow(s: String, row: Int, prefix: String = "", postfix: String = ""): String =
+            s.map { getCharacter(it).getRow(row) }.joinToString("", prefix, postfix) { it }
+
+    companion object {
+        fun loadFromFile(scanner: Scanner): Font {
+            val height = scanner.nextInt()
+            val expectedChars = scanner.nextInt()
+            var i = 0
+
+            val characters = mutableMapOf<Char, Character>()
+            while (scanner.hasNextLine() && i++ < expectedChars) {
+                val c = Character.loadFromFile(scanner, height)
+                characters[c.character] = c
+            }
+
+            //Make space and unknown equal in width to 'a'
+            val width = characters['a']!!.width
+            characters[' '] = Character.createFilled(' ', ' ', width, height)
+            characters[0.toChar()] = Character.createFilled('*', '#', width, height)
+
+            return Font(height, characters.toMap())
+        }
+    }
+}
+
+class Character(val character: Char, val width: Int, val data: Array<String>) {
     fun getRow(row: Int): String {
         return data[row]
     }
 
     companion object {
-        fun getCharacter(c: Char): Font {
-            return values().firstOrNull { it.character == c.toLowerCase() } ?: ERR
+        fun loadFromFile(scanner: Scanner, height: Int): Character {
+            val character = scanner.next().first()
+            val width = scanner.nextInt()
+            scanner.nextLine()
+
+            val data = mutableListOf<String>()
+            for (i in 1..height) {
+                data.add(scanner.nextLine())
+            }
+
+            return Character(character, width, data.toTypedArray())
+        }
+
+        fun createFilled(character: Char, fillChar: Char, width: Int, height: Int): Character {
+            val data = mutableListOf<String>()
+            for (i in 1..height) {
+                data.add(fillChar.toString().repeat(width))
+            }
+
+            return Character(character, width, data.toTypedArray())
         }
     }
-}
 
-fun stars(length: Int): String {
-    return "*".repeat(length)
 }
 
 fun main() {
@@ -176,25 +79,28 @@ fun main() {
     drawSignature(fullName, status)
 }
 
-fun drawSignature(fullName: String, status: String) {
-    val fullNameFont = fullName.map { Font.getCharacter(it) }
-    val fullNameWidth = fullNameFont.sumBy { it.getWidth() + 1 } + 5
-    val statusWidth = status.length + 6
-    val fullWidth = max(fullNameWidth, statusWidth)
+fun drawSignature(name: String, status: String) {
+    val roman = Font.loadFromFile(Scanner(File("resources/roman.txt")))
+    val medium = Font.loadFromFile(Scanner(File("resources/medium.txt")))
 
-    val fullNamePaddingLength = fullWidth - fullNameWidth
-    val statusPaddingLength = fullWidth - statusWidth
+    val nameWidth = roman.getWidth(name)
+    val statusWidth = medium.getWidth(status)
+    val fullWidth = max(nameWidth, statusWidth) + 8
 
-    val fullNameLeftPad = " ".repeat(fullNamePaddingLength / 2)
-    val fullNameRightPad = " ".repeat((fullNamePaddingLength + 1) / 2)
-    val statusLeftPad = " ".repeat(statusPaddingLength / 2)
-    val statusRightPad = " ".repeat((statusPaddingLength + 1 )/  2)
+    val namePaddingLength = fullWidth - nameWidth - 8
+    val statusPaddingLength = fullWidth - statusWidth - 8
 
-    println(stars(fullWidth))
-    for (i in 0..2) {
-        val row = fullNameFont.joinToString(" ") { it.getRow(i) }
-        println("*  $fullNameLeftPad$row$fullNameRightPad  *")
+    val nameLeftPad = "88  ${" ".repeat(namePaddingLength / 2)}"
+    val nameRightPad = "${" ".repeat((namePaddingLength + 1) / 2)}  88"
+    val statusLeftPad = "88  ${" ".repeat(statusPaddingLength / 2)}"
+    val statusRightPad = "${" ".repeat((statusPaddingLength + 1) / 2)}  88"
+
+    println("8".repeat(fullWidth))
+    for (i in 0 until roman.height) {
+        println(roman.getRow(name, i, nameLeftPad, nameRightPad))
     }
-    println("*  $statusLeftPad$status$statusRightPad  *")
-    println(stars(fullWidth))
+    for (i in 0 until medium.height) {
+        println(medium.getRow(status, i, statusLeftPad, statusRightPad))
+    }
+    println("8".repeat(fullWidth))
 }
